@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Peter Hans Appiah | Portfolio</title>
+  <meta name="description" content="Portfolio site for Peter Hans Appiah." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="container">
+    <header class="header" role="banner">
+      <div class="brand">
+        <span class="badge" aria-hidden="true"></span>
+        <div>
+          <h1>Peter Hans Appiah</h1>
+          <p>Feltham, London</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="posts.html">Posts</a>
+      </nav>
+    </header>
+
+    <main id="main" class="hero" role="main">
+      <h2>Communicating Results with Data</h2>
+      <p>
+        This is my GitHub Pages site for Module 23. It includes an “About you” section,
+        plus additional pages similar to the examples in the module.
+      </p>
+
+      <div class="grid" aria-label="Overview cards">
+        <section class="card half" aria-labelledby="about-you">
+          <h3 id="about-you">About me</h3>
+          <p>
+            I’m Peter Hans Appiah, based in Feltham, London. I have one year of experience
+            working as a Support Worker and I’m trained in First Aid, Medication Administration,
+            and Safeguarding. I’m interested in roles where I can support people to live safely,
+            independently, and with dignity.
+          </p>
+          <ul class="meta" aria-label="Quick facts">
+            <li>Location: Feltham, London</li>
+            <li>Industry: Support Work</li>
+            <li>UK driving licence</li>
+          </ul>
+        </section>
+
+        <section class="card half" aria-labelledby="goals">
+          <h3 id="goals">Goals & interests</h3>
+          <p>
+            I’m building a portfolio that shows my learning in data communication and my ability
+            to present information clearly. I’m also working on professional development in care,
+            including safe practice, record keeping, and person-centred support.
+          </p>
+          <p class="small">
+            Use the navigation above to view more details, projects, and a sample “post” page.
+          </p>
+        </section>
+
+        <section class="card third" aria-labelledby="education">
+          <h3 id="education">Education</h3>
+          <p>Imperial Collage Business School, 2025 - 2026</p>
+        </section>
+
+        <section class="card third" aria-labelledby="recent-projects">
+          <h3 id="recent-projects">Recent projects</h3>
+          <p>Air BnB like Booking System</p>
+          <p>Non Commercial Banking System</p>
+        </section>
+
+        <section class="card third" aria-labelledby="contact">
+          <h3 id="contact">Contact</h3>
+          <p>Email: <a href="mailto:hans.pee100@gmail.com">hans.pee100@gmail.com</a></p>
+          <p><a class="button" href="about.html">Read more about me</a></p>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Peter Hans Appiah</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
